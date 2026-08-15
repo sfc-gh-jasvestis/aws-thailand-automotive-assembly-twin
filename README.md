@@ -10,7 +10,6 @@ Thailand's automotive assembly plants run 8 lines producing pickups and SUVs for
 flowchart LR
     IOT[IoT Core] --> KIN[Kinesis]
     KIN --> SPS[Snowpipe Streaming]
-    SP --> RAW[RAW Tables]
     SPS --> RAW
     RAW --> DT[Dynamic Tables]
     DT --> ML[ML Functions]
