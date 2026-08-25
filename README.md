@@ -121,7 +121,7 @@ Run all scripts including AWS integration. Deploy QuickSight dashboard from `qui
 Industry research and Snowflake customer outcomes:
 - **Thailand's automotive sector contributes 12% of GDP with 1.88M vehicles produced in 2023** — [FTI Thailand](https://www.fti.or.th/eng/)
 - **Predictive maintenance reduces unplanned downtime by 30-50% and maintenance costs by 10-25%** — [McKinsey Industry 4.0](https://www.mckinsey.com/capabilities/operations/our-insights)
-- **Digital twins in manufacturing improve OEE by 5-15% through real-time optimization** — [Deloitte Smart Factory](https://www2.deloitte.com/us/en/insights/focus/industry-4-0/smart-factory-connected-manufacturing.html)
+- **Digital twins in manufacturing improve OEE by 5-15% through real-time optimization** — [Deloitte Smart Factory](https://www2.deloitte.com/us/en/insights/focus/industry-4-0.html)
 - **Toyota Thailand's Gateway plant produces 300,000 vehicles annually with Industry 4.0 systems** — [Toyota Thailand](https://www.toyota.co.th/en)
 
 
