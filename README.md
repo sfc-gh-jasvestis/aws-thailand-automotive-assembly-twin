@@ -123,7 +123,7 @@ Industry research and Snowflake customer outcomes:
 - **Predictive maintenance reduces unplanned downtime by 30-50% and maintenance costs by 10-25%** — [McKinsey Industry 4.0](https://www.mckinsey.com/capabilities/operations/our-insights)
 - **Digital twins in manufacturing improve OEE by 5-15% through real-time optimization** — [Deloitte Smart Factory](https://www2.deloitte.com/us/en/insights/focus/industry-4-0.html)
 - **Toyota Thailand's Gateway plant produces 300,000 vehicles annually with Industry 4.0 systems** — [Toyota Thailand](https://www.toyota.co.th/en)
-
+- **BMW Group** (Snowflake customer): saved 25% on large data workloads and launched 60 operational use cases in 18 months on Snowflake -- [snowflake.com/customers/bmw-group](https://www.snowflake.com/en/customers/all-customers/case-study/bmw-group/)
 
 ## Key Demo Numbers
 
