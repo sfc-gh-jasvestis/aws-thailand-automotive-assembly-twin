@@ -1,16 +1,13 @@
--- ============================================================================
--- Assembly Line Digital Twin
--- Digital twin of 8 automotive assembly lines across Thailand's Eastern Seaboard — IoT TwinMaker syncs with Snowflake ML to predict downtime, detect anomalies, and visualize real-time production in a React Canvas.
--- ============================================================================
-USE ROLE ACCOUNTADMIN;
-CREATE DATABASE IF NOT EXISTS ASSEMBLY_TWIN;
-CREATE WAREHOUSE IF NOT EXISTS ASSEMBLY_WH WAREHOUSE_SIZE = 'MEDIUM' AUTO_SUSPEND = 120 AUTO_RESUME = TRUE;
-USE DATABASE ASSEMBLY_TWIN;
-CREATE SCHEMA IF NOT EXISTS RAW;
-CREATE SCHEMA IF NOT EXISTS CURATED;
-CREATE SCHEMA IF NOT EXISTS ML;
-CREATE SCHEMA IF NOT EXISTS AI;
-CREATE SCHEMA IF NOT EXISTS SEARCH;
-CREATE SCHEMA IF NOT EXISTS APP;
+-- Generated from generator/demo_specs/aws-thailand-automotive-assembly-twin.json
+-- Regenerate with: python3 generator/gen_repo_docs.py aws-thailand-automotive-assembly-twin
+-- This is the schema that is actually deployed for THAILAND_AUTOMOTIVE_ASSEMBLY_TWIN.
 
-USE WAREHOUSE ASSEMBLY_WH;
+-- THAILAND_AUTOMOTIVE_ASSEMBLY_TWIN  (Assembly Line Digital Twin)
+-- generated from generator/demo_specs/aws-thailand-automotive-assembly-twin.json - do not hand-edit
+CREATE DATABASE IF NOT EXISTS THAILAND_AUTOMOTIVE_ASSEMBLY_TWIN;
+CREATE SCHEMA IF NOT EXISTS THAILAND_AUTOMOTIVE_ASSEMBLY_TWIN.RAW;
+CREATE SCHEMA IF NOT EXISTS THAILAND_AUTOMOTIVE_ASSEMBLY_TWIN.CURATED;
+CREATE SCHEMA IF NOT EXISTS THAILAND_AUTOMOTIVE_ASSEMBLY_TWIN.APP;
+USE DATABASE THAILAND_AUTOMOTIVE_ASSEMBLY_TWIN;
+
+-- 5 real regions; entity names carry their region so the two always agree
