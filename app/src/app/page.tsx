@@ -54,6 +54,7 @@ export default function HomePage() {
         <div className="lg:col-span-1">
           <GeoMap
             country="thailand"
+            labels={{ entity: 'Models', event: 'Equipment Telemetry', alert: 'Defects' }}
             regions={data?.regions}
             markers={[{"label": "Rayong", "value": "Assembly: OEE 87%", "color": "green", "size": "lg"}, {"label": "Bangkok", "value": "HQ & R&D", "color": "blue", "size": "md"}, {"label": "Laem Chabang", "value": "Export port", "color": "blue", "size": "md"}]}
             routes={[{"from": "Rayong", "to": "Laem Chabang", "color": "#29B5E8"}]}
@@ -84,8 +85,13 @@ export default function HomePage() {
         columns={[
           { key: 'id', header: 'Line' },
           { key: 'name', header: 'Model' },
+          { key: 'region', header: 'Region' },
           { key: 'status', header: 'Status' },
-          { key: 'value', header: 'OEE %' },
+          { key: 'm1', header: 'OEE %' },
+          { key: 'm2', header: 'Digital Twin Sync' },
+          { key: 'm3', header: 'Quality Defects Today' },
+          { key: 'events', header: 'Equipment Telemetry' },
+          { key: 'alerts', header: 'Defects' },
         ]}
         data={data?.entities || []}
         title="Assembly Line Status"
